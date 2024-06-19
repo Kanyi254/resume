@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sidebar .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .contacts {
+    margin-top: 20px;
+}
+
+.sidebar .contacts a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.sidebar .contacts a:hover {
+    text-decoration: underline;
+}
+
+.sidebar .contacts i {
+    margin-right: 10px;
+}
+
+.main-content {
+    width: 75%;
+    box-sizing: border-box;
+    background: url('back2.jpg') no-repeat center center;
+    background-size: cover;
+    color: #e9a512;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.main-content section {
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    color: #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+
+.gallery-photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-photos img {
+    width: 30%;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
